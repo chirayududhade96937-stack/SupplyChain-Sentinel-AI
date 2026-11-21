@@ -831,3 +831,76 @@ Each phase will be completed progressively. Findings, technical decisions, chall
 A phase will not be considered complete simply because its planned activities have been listed; completion will depend on the actual implementation and supporting evidence.
 
 
+# 14. Project Governance and Documentation
+
+## 14.1 Project Management
+
+The project will follow an iterative development approach, with implementation divided into manageable phases.
+
+Each phase will include:
+- Defined objectives and expected outputs.
+- Documented implementation activities.
+- Testing and validation where applicable.
+- A review of findings and outstanding issues.
+- Updates to the project progress log.
+
+## 14.2 Version Control
+
+GitHub will serve as the central repository for project code, documentation and supporting materials.
+
+The repository will maintain:
+- Version-controlled SQL and Python scripts.
+- Project requirements and architecture documentation.
+- Data source references and technical notes.
+- Progress updates and implementation decisions.
+- Relevant reports, screenshots and project assets.
+
+Changes will be committed progressively with meaningful commit messages.
+
+## 14.3 Decision Management
+
+Important technical and analytical decisions will be documented, including:
+
+- Why a particular data source or technology was selected.
+- Changes to the proposed architecture.
+- Data cleaning and transformation decisions.
+- Risk scoring assumptions and methodology changes.
+- Limitations, trade-offs and alternative approaches considered.
+
+## 14.4 Data Governance
+
+The project will follow responsible data handling practices:
+
+- Use publicly available external datasets and clearly labelled synthetic procurement information.
+- Retain source references and relevant data provenance.
+- Respect applicable data licensing and usage conditions.
+- Avoid publishing credentials, API keys or confidential information.
+- Document data quality issues and known limitations.
+
+## 14.5 Testing and Quality Control
+
+Testing will be incorporated throughout development rather than postponed until the end.
+
+Validation will cover:
+- Data ingestion and record counts.
+- Missing and duplicate records.
+- Data transformations and SQL calculations.
+- Geographical matching logic.
+- Risk score calculations.
+- Dashboard consistency.
+- Generative AI output quality.
+
+## 14.6 Documentation Standards
+
+Project documentation should be clear, accurate and reproducible.
+
+It should distinguish between:
+- Planned work and completed work.
+- Real-world observations and synthetic data.
+- Verified findings and assumptions.
+- Calculated risk indicators and confirmed disruptions.
+- AI-generated explanations and source evidence.
+
+The GitHub project progress log will be updated as implementation advances.
+
+
