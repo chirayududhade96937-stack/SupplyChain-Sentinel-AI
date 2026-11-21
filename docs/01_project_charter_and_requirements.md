@@ -131,3 +131,52 @@ The project will use real-world external event and hazard observations alongside
 Any geographic matching or risk score will represent a potential exposure signal requiring further investigation, not confirmation of actual business impact.
 
 The initial implementation will prioritise a reliable and explainable analytical workflow over unnecessary complexity or expensive infrastructure.
+
+
+# 5. Stakeholders
+
+The platform is designed to support different business functions involved in sourcing, procurement, logistics and supply chain risk management.
+
+## 5.1 Primary Stakeholders
+
+1. **Supply Chain Analysts**
+   - Monitor external disruption signals.
+   - Analyse potential risks across sourcing regions.
+   - Investigate trends and supporting evidence.
+
+2. **Procurement Teams**
+   - Understand potential risks associated with sourcing countries and procurement categories.
+   - Review regions that may require additional attention.
+   - Support sourcing risk assessments.
+
+3. **Logistics and Operations Managers**
+   - Monitor events that may affect transport infrastructure and logistics networks.
+   - Investigate potential geographical exposure.
+   - Support operational contingency discussions.
+
+4. **Business Decision-Makers**
+   - Review consolidated risk information.
+   - Understand priority areas and emerging trends.
+   - Use analytical insights to support strategic discussions.
+
+## 5.2 Project Owner and Developer
+
+**Project Owner:** Individual project developer.
+
+The project developer is responsible for:
+- Defining business requirements and project objectives.
+- Researching and collecting relevant data.
+- Designing the data architecture and analytical workflow.
+- Developing SQL queries, Python scripts and risk assessment logic.
+- Building Excel reports and Power BI dashboards.
+- Integrating and evaluating Generative AI capabilities.
+- Testing, documenting and maintaining the project.
+
+## 5.3 Stakeholder Expectations
+
+The platform should provide:
+- Clear and understandable risk information.
+- Traceable evidence behind identified events.
+- Consistent and explainable risk assessments.
+- Interactive reporting for further investigation.
+- Appropriate warnings about data quality and analytical limitations.
