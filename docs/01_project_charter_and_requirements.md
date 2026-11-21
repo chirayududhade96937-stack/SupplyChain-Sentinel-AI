@@ -408,3 +408,99 @@ The initial implementation will be designed around the following environment:
 The implementation will favour cloud-based processing, bounded data extraction and lightweight local development to avoid unnecessary hardware and infrastructure requirements.
 
 
+# 9. Risk Scoring Methodology
+
+## 9.1 Purpose
+
+The purpose of the risk assessment framework is to evaluate and prioritise potential supply chain exposure by combining relevant external disruption signals with the illustrative procurement portfolio.
+
+The framework will produce an explainable risk score for monitored sourcing regions, helping users understand why certain locations may require further investigation.
+
+## 9.2 Proposed Risk Assessment Factors
+
+The initial framework will consider five assessment factors:
+
+1. **Event Severity — 30%**
+   - Evaluates the reported severity or intensity of an identified disruption.
+   - Considers available event classifications and hazard measurements.
+
+2. **Geographic Exposure — 25%**
+   - Evaluates the geographical relationship between an external event and an illustrative sourcing location.
+   - Considers proximity and available location information.
+
+3. **Recency — 20%**
+   - Considers how recently the event occurred or was reported.
+   - Gives greater consideration to recent disruption signals.
+
+4. **Supporting Evidence — 15%**
+   - Considers the availability and quality of supporting information.
+   - Distinguishes independent reporting from duplicated or syndicated coverage wherever possible.
+
+5. **Procurement Relevance — 10%**
+   - Evaluates the relevance of an event to the illustrative procurement portfolio.
+   - Considers sourcing locations and associated procurement categories.
+
+## 9.3 Initial Risk Score
+
+The proposed weighted scoring formula is:
+
+Risk Score =
+
+(Event Severity × 0.30) +
+
+(Geographic Exposure × 0.25) +
+
+(Recency × 0.20) +
+
+(Supporting Evidence × 0.15) +
+
+(Procurement Relevance × 0.10)
+
+Each assessment factor will initially use a normalised score between 0 and 100.
+
+The resulting overall score will also fall between 0 and 100.
+
+## 9.4 Proposed Risk Classification
+
+The initial risk categories will be:
+
+| Risk Score | Classification |
+|---|---|
+| 0–24 | Low |
+| 25–49 | Moderate |
+| 50–74 | High |
+| 75–100 | Critical |
+
+These thresholds are provisional and will be reviewed during model development and testing.
+
+## 9.5 Risk Assessment Principles
+
+The framework will follow these principles:
+
+- Risk scores must be explainable and traceable to their contributing factors.
+- Missing or unreliable information must not automatically be treated as evidence of low risk.
+- Duplicate news reports must not be counted as independent corroboration.
+- Geographic proximity must be treated as a screening indicator, not proof of direct impact.
+- Different event types may require different severity and proximity assessment rules.
+- Risk scores should be reviewed for sensitivity to changes in weights and thresholds.
+
+## 9.6 Model Limitations
+
+The proposed framework is a prioritisation model rather than a statistically validated predictive model.
+
+Its scores will not represent:
+- The probability of supplier failure.
+- The probability of shipment delays.
+- Confirmed infrastructure damage.
+- Actual financial losses.
+- Verified disruption to a real organisation.
+
+The framework will be tested and refined using available data, documented assumptions and sensitivity analysis before being used in the final prototype.
+
+## 9.7 Methodology Status
+
+The weights, scoring rules and classification thresholds defined in this section are initial design assumptions.
+
+They will remain provisional until the underlying datasets, scoring logic and validation results have been examined.
+
+
