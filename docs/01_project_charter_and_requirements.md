@@ -228,3 +228,115 @@ The platform will aim to answer the following business questions:
 Answering these questions should help users move from scattered external information towards structured analysis, explainable risk prioritisation and more informed supply chain investigations.
 
 
+# 7. Data Requirements and Source Requirements
+
+The platform requires a combination of external disruption data, geographical reference data and illustrative procurement information. These datasets will be used to identify potential risk signals and assess their relevance to the hypothetical procurement portfolio.
+
+## 7.1 Required Data Categories
+
+1. **Geopolitical and News Event Data**
+   - Event descriptions and classifications.
+   - Event dates and locations.
+   - Countries and regions associated with reported events.
+   - Source references and available reporting information.
+
+2. **Natural Disaster Data**
+   - Earthquake dates, magnitudes, depths and geographical coordinates.
+   - Tropical cyclone names, dates, locations and intensity measurements.
+   - Historical hazard observations for geographical analysis.
+
+3. **Geographical Reference Data**
+   - Country names and standard country codes.
+   - Geographic coordinates and regional classifications.
+   - Reference information required to match external events with sourcing locations.
+
+4. **Procurement Portfolio Data**
+   - Fifteen illustrative sourcing countries.
+   - Five hypothetical procurement categories.
+   - Synthetic sourcing locations and transport corridors.
+   - Illustrative procurement allocation and exposure information.
+
+5. **Historical and Economic Context**
+   - Relevant country-level logistics and infrastructure context, where suitable data is available.
+   - Historical indicators to support broader country comparisons.
+
+## 7.2 Proposed External Data Sources
+
+The following sources are proposed for the initial development of the platform. Their suitability and technical requirements will be validated before integration.
+
+### 1. GDELT 2.0
+
+**Purpose:** Geopolitical events and news-derived information.
+
+**Potential data:** Event classifications, reporting dates, country references, locations, themes and related news references.
+
+**Planned use:** Identify and analyse reported geopolitical developments and other potentially relevant disruption signals.
+
+**Important limitation:** GDELT is news-derived. Its records may contain duplicates, incomplete information and reporting bias. News coverage does not independently confirm an actual supply chain disruption.
+
+### 2. NOAA IBTrACS
+
+**Purpose:** Global tropical cyclone observations.
+
+**Potential data:** Storm identifiers, names, observation dates, geographical coordinates and available intensity measurements.
+
+**Planned use:** Examine tropical cyclone activity and screen for potential geographical exposure around illustrative sourcing locations.
+
+### 3. USGS Earthquake API
+
+**Purpose:** Earthquake observations.
+
+**Potential data:** Event identifiers, occurrence times, magnitudes, depths and geographical coordinates.
+
+**Planned use:** Identify earthquakes and investigate their geographical proximity to hypothetical sourcing locations.
+
+### 4. World Bank Logistics Performance Index
+
+**Purpose:** Country-level logistics performance context.
+
+**Potential data:** Published logistics performance indicators and available country-level comparisons.
+
+**Planned use:** Provide additional context when comparing sourcing countries.
+
+**Important limitation:** The Logistics Performance Index is a periodically published contextual indicator, not a real-time disruption monitoring source.
+
+## 7.3 Synthetic Procurement Data
+
+A fictional procurement portfolio will be developed to represent the business scenario.
+
+It will include:
+- 15 sourcing countries.
+- 5 procurement categories.
+- Hypothetical sourcing locations.
+- Illustrative transport corridors.
+- Synthetic procurement allocations and exposure values.
+
+All generated procurement information will be clearly labelled as synthetic. It will not represent actual supplier relationships, company purchases or verified shipment movements.
+
+## 7.4 Data Quality Requirements
+
+Collected data should meet the following requirements wherever the source permits:
+
+1. **Completeness:** Required fields should be available for meaningful analysis.
+2. **Accuracy:** Values should be checked against source documentation and validation rules.
+3. **Consistency:** Dates, country codes, event categories and geographical formats should be standardised.
+4. **Uniqueness:** Duplicate records should be identified and handled appropriately.
+5. **Traceability:** Records should retain source identifiers and relevant source references.
+6. **Timeliness:** Data collection dates and event occurrence dates should be distinguishable.
+7. **Reproducibility:** Data extraction and transformation steps should be documented.
+
+## 7.5 Data Source Validation
+
+Before integrating a source, the project will assess:
+
+- Public availability and access requirements.
+- Data structure, schema and supported formats.
+- Historical coverage and update frequency.
+- Geographic coverage and level of detail.
+- Usage restrictions and licensing conditions.
+- Suitability for the intended analytical questions.
+- Storage and processing requirements within the available budget.
+
+Only sources that meet the project's technical and analytical requirements will be included in the implemented solution.
+
+
