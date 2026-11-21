@@ -904,3 +904,30 @@ It should distinguish between:
 The GitHub project progress log will be updated as implementation advances.
 
 
+# 15. Definition of Project Success
+
+SupplyChain Sentinel AI will be considered successful when it demonstrates a complete, functional and explainable analytical workflow for identifying and investigating potential global supply chain risks.
+
+The final solution should demonstrate the following:
+
+1. **End-to-End Data Integration:** Relevant external disruption datasets are collected, processed and organised into a structured analytical environment.
+
+2. **Reliable Data Engineering:** Data ingestion, cleaning, validation and transformation processes are documented and reproducible.
+
+3. **Meaningful Business Analysis:** SQL and Python are used to answer relevant business questions and identify patterns, trends and potential exposure.
+
+4. **Explainable Risk Prioritisation:** The platform produces transparent risk scores with clearly documented contributing factors and supporting evidence.
+
+5. **Effective Business Intelligence:** Power BI dashboards communicate analytical findings through meaningful KPIs, visualisations and interactive investigation capabilities.
+
+6. **Practical AI Integration:** Generative AI demonstrates useful, evidence-grounded summaries and explanations while acknowledging uncertainty and limitations.
+
+7. **Analytical Validation:** Results are tested, documented and evaluated against defined quality and acceptance criteria.
+
+8. **Reproducible Documentation:** The GitHub repository provides sufficient technical and business documentation for another person to understand, review and reproduce the project.
+
+## Final Project Vision
+
+To demonstrate how data engineering, business analytics, geographical intelligence and Generative AI can work together to transform fragmented external information into structured, explainable insights that support better-informed supply chain decisions.
+
+The final outcome should reflect not only a working technical solution, but also the analytical reasoning, business understanding and decision-making process behind its development.
