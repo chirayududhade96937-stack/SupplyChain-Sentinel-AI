@@ -340,3 +340,71 @@ Before integrating a source, the project will assess:
 Only sources that meet the project's technical and analytical requirements will be included in the implemented solution.
 
 
+# 8. Functional and Non-Functional Requirements
+
+## 8.1 Functional Requirements
+
+The platform should provide the following capabilities:
+
+1. **Data Collection:** Retrieve relevant external event and natural hazard information from selected public data sources.
+
+2. **Data Ingestion:** Load collected datasets into Google BigQuery using documented and repeatable ingestion processes.
+
+3. **Data Cleaning:** Identify missing values, duplicates, inconsistent formats and invalid records before analytical use.
+
+4. **Data Transformation:** Standardise event classifications, dates, geographical references and other relevant fields.
+
+5. **Data Integration:** Connect external event information with geographical reference data and the synthetic procurement portfolio.
+
+6. **Exploratory Analysis:** Use SQL and Python to investigate event patterns, historical trends, geographical distributions and potential exposure.
+
+7. **Risk Assessment:** Calculate explainable risk scores using defined assessment factors and documented scoring rules.
+
+8. **Risk Prioritisation:** Classify and rank potential risks to help users identify regions requiring further investigation.
+
+9. **Interactive Reporting:** Provide Power BI dashboards with filters, comparisons, KPIs and supporting event information.
+
+10. **AI-Assisted Investigation:** Generate evidence-grounded event summaries and risk explanations using relevant source information.
+
+11. **Documentation:** Maintain technical documentation covering data sources, architecture, transformations, analytical methods and project decisions.
+
+## 8.2 Non-Functional Requirements
+
+The platform should satisfy the following quality requirements:
+
+1. **Cost Efficiency:** Development and operation should use free-tier services and tools wherever possible, with no planned monthly expenditure.
+
+2. **Performance:** Data processing and analytical queries should be designed to operate efficiently within the available hardware and cloud resources.
+
+3. **Scalability:** The architecture should allow additional countries, data sources and analytical capabilities to be incorporated later.
+
+4. **Reliability:** Data ingestion and transformation processes should include appropriate validation and error handling.
+
+5. **Data Traceability:** Important analytical results should be traceable to their underlying records and original sources wherever available.
+
+6. **Explainability:** Risk scores and classifications should have clearly documented contributing factors and calculation methods.
+
+7. **Usability:** Dashboards and reports should present information in a clear and understandable format for business users.
+
+8. **Maintainability:** Code, SQL queries, documentation and project structure should be organised for future updates.
+
+9. **Responsible AI:** Generative AI outputs should be grounded in available evidence, reviewed for unsupported claims and presented with appropriate limitations.
+
+10. **Data Security:** Public and synthetic datasets should be used, with credentials and access tokens kept out of public repositories.
+
+## 8.3 Technical Environment and Constraints
+
+The initial implementation will be designed around the following environment:
+
+- **Cloud Data Warehouse:** Google BigQuery.
+- **Programming Language:** Python.
+- **Query Language:** GoogleSQL.
+- **Business Intelligence:** Microsoft Power BI.
+- **Spreadsheet Analysis:** Microsoft Excel.
+- **Version Control:** GitHub.
+- **Available Hardware:** 8 GB RAM.
+- **Development Budget:** ₹0 planned monthly expenditure.
+
+The implementation will favour cloud-based processing, bounded data extraction and lightweight local development to avoid unnecessary hardware and infrastructure requirements.
+
+
