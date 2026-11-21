@@ -575,3 +575,74 @@ Actual KPI values and performance targets will be established during implementat
 The project will record baseline results, validation outcomes and final measurements rather than assume improvements or accuracy figures before testing.
 
 
+# 11. Assumptions and Constraints
+
+## 11.1 Project Assumptions
+
+The project will operate under the following assumptions:
+
+1. **Public Data Availability:** Relevant external event and natural hazard information will be available through selected public data sources.
+
+2. **Synthetic Procurement Portfolio:** The illustrative procurement portfolio will represent a hypothetical multinational manufacturer rather than an actual business.
+
+3. **Geographical Relevance:** The proximity of an external event to a sourcing location may indicate potential exposure but does not confirm operational impact.
+
+4. **Data Reliability:** External datasets may contain incomplete, inconsistent or duplicated information and will require validation.
+
+5. **Risk Assessment:** The proposed scoring methodology will initially use defined assumptions and will be refined through testing.
+
+6. **AI-Generated Insights:** Generative AI outputs will be treated as analytical assistance and will require evidence-based evaluation.
+
+## 11.2 Technical Constraints
+
+The project must account for the following limitations:
+
+- **Hardware:** Development is restricted to a computer with 8 GB RAM.
+- **Budget:** The planned monthly development budget is ₹0.
+- **Cloud Resources:** Free-tier services and available public datasets will be prioritised.
+- **Data Volume:** Large datasets will be queried or processed using bounded extracts wherever possible.
+- **Internet Access:** Data collection and cloud operations depend on an available internet connection.
+- **Software Access:** Implementation will depend on available free tools, licenses and service eligibility.
+
+## 11.3 Data and Analytical Constraints
+
+1. **Reporting Bias:** News-derived datasets may overrepresent certain countries, languages or types of events.
+
+2. **Historical Coverage:** Different data sources may provide different historical periods and update frequencies.
+
+3. **Geographical Accuracy:** Event coordinates and location descriptions may be incomplete or imprecise.
+
+4. **Duplicate Reporting:** Multiple records may describe the same underlying event.
+
+5. **Limited Ground Truth:** The synthetic procurement portfolio cannot establish actual supplier or shipment disruption outcomes.
+
+6. **Model Calibration:** The initial risk weights and thresholds will not have proven predictive validity.
+
+7. **AI Limitations:** Generated summaries and explanations may contain unsupported statements and must be checked against source evidence.
+
+## 11.4 Cost and Resource Management
+
+The project will prioritise:
+
+- Free and open-source tools wherever practical.
+- BigQuery Sandbox or other verified no-cost options where eligible.
+- Efficient SQL queries with appropriate date and partition filters.
+- Limited data extraction instead of unnecessary large downloads.
+- Lightweight Python processing.
+- Manual evaluation where paid AI services are not feasible.
+
+Any service with potential charges will be assessed before use. The project will not assume that a free trial or free tier provides unlimited access.
+
+## 11.5 Risk Management
+
+Potential project risks will be managed through:
+
+- Validating data sources before integration.
+- Documenting data limitations and assumptions.
+- Monitoring query usage and cloud resource consumption.
+- Maintaining source references and processing logs.
+- Testing risk calculations against sample cases.
+- Reviewing AI-generated outputs for unsupported claims.
+- Keeping credentials and sensitive configuration files out of the public repository.
+
+
