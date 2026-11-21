@@ -735,3 +735,99 @@ Completion will be demonstrated through:
 - GitHub documentation and project history.
 
 
+# 13. Project Implementation Phases
+
+The project will be developed in structured phases, with each phase building on the outputs of the previous one.
+
+## Phase 1 — Project Planning and Requirements
+- Define the business problem and project objectives.
+- Establish project scope and requirements.
+- Identify stakeholders and business questions.
+- Document assumptions, constraints and success criteria.
+
+**Expected Output:** Approved project charter and initial GitHub documentation.
+
+## Phase 2 — Data Source Research and Validation
+- Investigate the proposed external data sources.
+- Review schemas, formats and geographical coverage.
+- Verify access requirements, licensing and usage restrictions.
+- Identify suitable fields for the analytical requirements.
+
+**Expected Output:** Validated data source documentation and data requirements.
+
+## Phase 3 — Solution Architecture and Data Modelling
+- Design the overall platform architecture.
+- Establish the Bronze, Silver and Gold data layers.
+- Define data structures, table relationships and data grain.
+- Plan data ingestion and transformation workflows.
+
+**Expected Output:** Documented architecture and initial data model.
+
+## Phase 4 — Data Collection and Engineering
+- Configure the BigQuery environment.
+- Develop Python-based data collection processes.
+- Ingest selected datasets.
+- Implement data validation, cleaning and transformation.
+- Maintain source identifiers and ingestion metadata.
+
+**Expected Output:** Reproducible data pipeline and structured analytical datasets.
+
+## Phase 5 — SQL Analytics and Business Analysis
+- Perform exploratory data analysis.
+- Analyse historical disruption patterns.
+- Investigate geographical distributions and trends.
+- Connect external events with the synthetic procurement portfolio.
+- Develop analytical views and reporting tables.
+
+**Expected Output:** Documented SQL analysis and business insights.
+
+## Phase 6 — Risk Assessment Framework
+- Define scoring rules for each assessment factor.
+- Implement the weighted risk scoring methodology.
+- Establish provisional risk classifications.
+- Test scoring logic using representative scenarios.
+- Perform sensitivity analysis and document limitations.
+
+**Expected Output:** Explainable and tested risk prioritisation framework.
+
+## Phase 7 — Excel and Power BI Reporting
+- Prepare supporting analytical reports in Excel.
+- Develop the Power BI data model.
+- Build interactive dashboards.
+- Validate dashboard calculations against analytical datasets.
+
+**Expected Output:** Interactive reporting and business intelligence solution.
+
+## Phase 8 — Generative AI Integration
+- Identify suitable AI-assisted use cases.
+- Develop evidence-grounded event summaries.
+- Generate risk explanations and investigation briefs.
+- Evaluate outputs for accuracy and unsupported claims.
+
+**Expected Output:** Evaluated AI-assisted investigation component.
+
+## Phase 9 — Testing and Evaluation
+- Validate data quality and pipeline reliability.
+- Test SQL transformations and analytical calculations.
+- Review risk scoring behaviour.
+- Reconcile dashboard results.
+- Evaluate AI outputs and document limitations.
+
+**Expected Output:** Testing results and documented improvements.
+
+## Phase 10 — Final Documentation and Portfolio Presentation
+- Complete technical and business documentation.
+- Organise source code, SQL scripts and project assets.
+- Prepare final dashboard screenshots and project findings.
+- Update the GitHub README and project progress log.
+- Review the complete solution for reproducibility.
+
+**Expected Output:** Completed and documented SupplyChain Sentinel AI portfolio project.
+
+## Implementation Approach
+
+Each phase will be completed progressively. Findings, technical decisions, challenges and changes in scope will be documented throughout development.
+
+A phase will not be considered complete simply because its planned activities have been listed; completion will depend on the actual implementation and supporting evidence.
+
+
