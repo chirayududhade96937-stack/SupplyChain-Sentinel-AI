@@ -180,3 +180,51 @@ The platform should provide:
 - Consistent and explainable risk assessments.
 - Interactive reporting for further investigation.
 - Appropriate warnings about data quality and analytical limitations.
+
+
+# 6. Business Questions
+
+The platform will aim to answer the following business questions:
+
+## 6.1 Global Risk Monitoring
+
+1. Which sourcing countries are currently showing the highest number of potential disruption signals?
+2. Which countries have experienced an increase in reported geopolitical or natural hazard events?
+3. Which regions require closer monitoring based on recent event activity?
+
+## 6.2 Geopolitical Risk Analysis
+
+4. What types of geopolitical events are being reported across the monitored sourcing countries?
+5. Which countries are experiencing recurring geopolitical instability or trade-related developments?
+6. How have geopolitical event patterns changed over time?
+
+## 6.3 Natural Hazard Analysis
+
+7. Which sourcing regions have recorded nearby earthquakes or tropical cyclone activity?
+8. How frequently do natural hazard events occur near the illustrative sourcing locations?
+9. Which locations may require further geographical exposure investigation?
+
+## 6.4 Procurement Exposure Analysis
+
+10. Which procurement categories are associated with the highest illustrative exposure?
+11. Which sourcing countries represent the largest share of the hypothetical procurement portfolio?
+12. Are there sourcing regions where multiple potential disruption signals overlap?
+
+## 6.5 Risk Prioritisation and Investigation
+
+13. Which regions receive the highest scores under the proposed risk assessment framework?
+14. What factors contribute most to an individual region's risk score?
+15. What supporting evidence is available for each high-priority risk signal?
+16. How do risk rankings change when assessment weights or thresholds are adjusted?
+
+## 6.6 Reporting and AI-Assisted Insights
+
+17. Can the platform summarise relevant event information using traceable source evidence?
+18. Can users understand why a particular region has been prioritised?
+19. Can interactive dashboards help users investigate risk patterns across countries, event types and time periods?
+
+## Expected Analytical Value
+
+Answering these questions should help users move from scattered external information towards structured analysis, explainable risk prioritisation and more informed supply chain investigations.
+
+
