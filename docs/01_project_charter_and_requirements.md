@@ -646,3 +646,92 @@ Potential project risks will be managed through:
 - Keeping credentials and sensitive configuration files out of the public repository.
 
 
+# 12. Project Deliverables and Acceptance Criteria
+
+## 12.1 Project Deliverables
+
+The project is expected to produce the following deliverables:
+
+1. **Project Documentation**
+   - Business requirements and project charter.
+   - Technical architecture and data flow documentation.
+   - Data source documentation and project decisions.
+   - Setup instructions and implementation notes.
+
+2. **Data Engineering Pipeline**
+   - Python scripts for collecting selected external datasets.
+   - BigQuery datasets and tables organised using a Bronze, Silver and Gold architecture.
+   - Documented data cleaning, validation and transformation processes.
+
+3. **SQL Analytics**
+   - Exploratory data analysis queries.
+   - Historical trend and geographical analysis.
+   - Event classification and deduplication logic.
+   - Procurement exposure analysis.
+   - Risk scoring calculations and analytical reporting tables.
+
+4. **Python Analysis and Integration**
+   - Data ingestion and validation scripts.
+   - Geographical matching and analytical processing.
+   - Supporting scripts for risk assessment and AI integration.
+
+5. **Excel Analysis**
+   - Supporting analytical reports.
+   - Data validation and reconciliation.
+   - Risk review and scenario analysis where appropriate.
+
+6. **Power BI Dashboards**
+   - Global Risk Overview.
+   - Geopolitical Intelligence.
+   - Natural Hazard Intelligence.
+   - Procurement Exposure.
+   - Event Investigation.
+
+7. **Generative AI Component**
+   - Evidence-grounded event summaries.
+   - Risk explanations.
+   - Investigation briefs.
+   - Evaluation results and documented limitations.
+
+8. **Testing and Evaluation**
+   - Data quality validation results.
+   - SQL and Python testing.
+   - Risk scoring test cases.
+   - Dashboard reconciliation.
+   - Generative AI evaluation.
+
+9. **GitHub Portfolio**
+   - Source code and SQL scripts.
+   - Project documentation.
+   - Progress and decision logs.
+   - Relevant screenshots and final project outputs.
+
+## 12.2 Acceptance Criteria
+
+The project deliverables will be considered acceptable when:
+
+1. Data sources are documented and their suitability has been assessed.
+2. Data ingestion and transformation processes can be reproduced using the documented instructions.
+3. Bronze, Silver and Gold layers have clearly defined purposes and structures.
+4. SQL analyses answer the approved business questions.
+5. Data quality checks produce documented results.
+6. Geographic matching follows defined and reproducible rules.
+7. Risk scores can be independently reproduced and explained.
+8. Power BI dashboards display consistent and validated analytical results.
+9. Generative AI outputs are evaluated against source evidence.
+10. Known limitations, assumptions and unresolved issues are clearly documented.
+11. The GitHub repository provides sufficient information for another person to understand and review the project.
+
+## 12.3 Evidence of Completion
+
+Completion will be demonstrated through:
+
+- Working code and SQL queries.
+- BigQuery tables and validation results.
+- Documented analytical findings.
+- Dashboard screenshots and reports.
+- Risk scoring examples.
+- AI evaluation results.
+- GitHub documentation and project history.
+
+
