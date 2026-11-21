@@ -504,3 +504,74 @@ The weights, scoring rules and classification thresholds defined in this section
 They will remain provisional until the underlying datasets, scoring logic and validation results have been examined.
 
 
+# 10. KPIs and Success Criteria
+
+## 10.1 Data Collection and Quality
+
+The project will evaluate data collection and preparation using the following indicators:
+
+1. **Data Source Integration:** Successfully integrate the selected and validated external data sources.
+
+2. **Data Completeness:** Measure the percentage of records containing the required fields for analysis.
+
+3. **Duplicate Records:** Identify and measure duplicate records before and after data cleaning.
+
+4. **Data Validation:** Track records that pass or fail defined validation checks.
+
+5. **Data Traceability:** Ensure analytical records retain source identifiers or references wherever available.
+
+## 10.2 Analytical Performance
+
+The analytical workflow will be evaluated using:
+
+1. **Event Classification:** Ability to organise external events into meaningful categories.
+
+2. **Geographical Matching:** Ability to associate eligible external events with relevant sourcing locations using documented geographical rules.
+
+3. **Risk Score Calculation:** Ability to calculate consistent scores using the defined assessment methodology.
+
+4. **Risk Explainability:** Ability to show the individual factors contributing to each risk score.
+
+5. **Historical Analysis:** Ability to identify changes and trends in disruption activity over time.
+
+## 10.3 Dashboard and Reporting
+
+The reporting solution should demonstrate:
+
+- Interactive filtering by country, event type and date.
+- Clear presentation of risk classifications and trends.
+- Visibility into the factors contributing to individual risk scores.
+- Access to supporting event information.
+- Consistent results between the analytical tables and dashboard measures.
+
+## 10.4 Generative AI Evaluation
+
+The AI component will be evaluated based on:
+
+- Accuracy of event summaries against available source information.
+- Consistency between generated explanations and calculated risk scores.
+- Ability to reference supporting evidence.
+- Frequency of unsupported or fabricated claims.
+- Ability to acknowledge missing or insufficient information.
+
+## 10.5 Project Success Criteria
+
+The project will be considered successful when:
+
+1. Selected external datasets have been collected and integrated successfully.
+2. A documented data pipeline processes and validates the selected information.
+3. SQL and Python analyses answer the defined business questions.
+4. The synthetic procurement portfolio is connected to relevant external event information.
+5. The risk assessment framework produces explainable and reproducible results.
+6. Interactive Power BI dashboards communicate the findings effectively.
+7. The Generative AI component demonstrates useful, evidence-grounded capabilities.
+8. Testing, limitations and analytical decisions are documented.
+9. The complete project is reproducible using the documented setup instructions.
+
+## 10.6 Measurement Approach
+
+Actual KPI values and performance targets will be established during implementation.
+
+The project will record baseline results, validation outcomes and final measurements rather than assume improvements or accuracy figures before testing.
+
+
